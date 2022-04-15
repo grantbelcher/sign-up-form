@@ -18,15 +18,15 @@
         <p>You know you want to!</p>
       </div>
       <div class="form-container">
-        <form>
+        <form action="http://httpbin.org/post" method="post">
           <div class="input-container main-padding shadow">
             <h3>Sign up now!</h3>         
-            <label for="first_name">First Name</label><input name="first_name" type="text">
-            <label for="last_name">Last Name</label><input name="last_name" type="text">
-            <label for="email">Email</label><input name="email" type="text" type="email">
-            <label for="phone_number">Phone Number</label><input name="phone_number" type="text">         
-            <label for="password">Password</label><input name="password" type="password">
-            <label for="confirm_password">Confirm Password</label><input name="confirm_password" type="password">
+            <label for="first_name">*First Name</label><input name="first_name" type="text" required>
+            <label for="last_name">*Last Name</label><input name="last_name" type="text" required>
+            <label for="email">*Email</label><input name="email" type="text" type="email" placeholder="example@hotmail.com" message="test"required>
+            <label for="phone_number">Phone Number</label><input name="phone_number" type="text" placeholder="(555)-555-5555" pattern="(\d{3}([\-]\d{3})([\-]\d{4}))"title="(555)-555-5555">         
+            <label for="password">*Password</label><input name="password" type="password" minlength="5" required>
+            <label for="confirm_password">*Confirm Password</label><input name="confirm_password" type="password" required>
           </div>
           <div class="form-footer main-padding">
             <button class="btn-submit footer-font"type="submit">Submit</button>
