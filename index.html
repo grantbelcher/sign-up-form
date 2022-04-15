@@ -6,27 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale = 1.0,maximum-scale=1.0">
   <link rel="stylesheet" href="styles.css"></link>
   <title>Sign Up</title>
-  <script type = "text/javascript">
-    let passwordsMatch = false
-    function validatePassword() {   
-      let passwordElement = document.getElementById('password')
-      let confirmPasswordElement = document.getElementById('confirm_password')
-      if (confirmPasswordElement.value) {
-        passwordsMatch = (passwordElement.value === confirmPasswordElement.value)
-        if (!passwordsMatch) {
-          alert('passwords do not match')
-          // document.getElementById('password').classList.add('input-error')
-          confirmPasswordElement.classList.add('input-error')
-          return false
-        } else {
-          confirmPasswordElement.classList.remove('input-error')
-          return true
-        }
-      }
-    }  
-
-
-    </script>
+  <script type = "text/javascript" src="validatePassword.js"></script>
 </head>
 <body>
   <container>
