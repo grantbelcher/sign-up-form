@@ -81,6 +81,10 @@ input {
   background-color: transparent;
 }
 
+.input-error {
+  border: 0.2px solid red;
+}
+
 input:last-child {
   margin-bottom: 3em;
 }
