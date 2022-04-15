@@ -4,20 +4,33 @@ body {
   /* background-color: salmon; */
   font-family: "Ubuntu", sans-serif;
   margin: 0 auto;
+  color: #041f5f;
 }
 
 /* TYPOGRAPHY */
 .intro-text {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  font-weight: 400;
+}
+
+.input-container > h3 {
   font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .footer-font {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 
 .form-footer {
   margin-bottom: 2.5em;
 }
+
+/* .form-footer > p {
+  width: 60%;
+  max-width: 205px;
+} */
 
 /* LAYOUT */
 main {
@@ -52,22 +65,19 @@ aside {
     0 4px 4px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
-.input-container > h3 {
-  font-size: 2rem;
-}
-
 label {
   margin-bottom: 0.3em;
   font-size: 1.2rem;
 }
 
 input {
-  margin-bottom: 0.85em;
+  margin-bottom: 1em;
   width: 60%;
   max-width: 275px;
   height: 1.5em;
   border-radius: 10px;
-  border: solid black 1px;
+  border: 0.2px solid grey;
+  box-shadow: none;
   background-color: transparent;
 }
 
