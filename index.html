@@ -27,13 +27,30 @@
       <div class="form-container">
         <form action="http://httpbin.org/post" method="post" onsubmit="return validatePassword()">
           <div class="input-container main-padding shadow">
-            <h3>Sign up now!</h3>         
-            <label for="first_name">*First Name</label><input name="first_name" type="text" required>
-            <label for="last_name">*Last Name</label><input name="last_name" type="text" required>
-            <label for="email">*Email</label><input name="email" type="text" type="email" placeholder="example@hotmail.com" message="test" required>
-            <label for="phone_number">Phone Number</label><input name="phone_number" type="text" placeholder="(555)-555-5555" pattern="(\d{3}([\-]\d{3})([\-]\d{4}))"title="(555)-555-5555">         
-            <label for="password">*Password</label><input id="password" name="password" type="password" minlength="5" required>
-            <label for="confirm_password">*Confirm Password</label><input id="confirm_password" name="confirm_password" type="password" required>
+            <h3>Lets do it!</h3>
+            <div>
+              <label for="first_name">First Name</label><input name="first_name" type="text" required>
+            </div>
+            <div>
+              <label for="last_name">Last Name</label><input name="last_name" type="text" required>
+              
+            </div>
+            <div>
+              <label for="email">Email</label><input name="email" type="text" type="email" placeholder="example@hotmail.com" message="test" required>
+
+            </div>
+            <div>
+              <label for="phone_number">Phone Number</label><input name="phone_number" type="text" placeholder="(555)-555-5555" pattern="(\d{3}([\-]\d{3})([\-]\d{4}))"title="(555)-555-5555">         
+
+            </div>
+            <div>
+              <label for="password">Password</label><input id="password" name="password" type="password" minlength="5" required>
+
+            </div>
+            <div>
+              <label for="confirm_password">Confirm Password</label><input id="confirm_password" name="confirm_password" type="password" required>
+            </div>
+            
           </div>
           <div class="form-footer main-padding">
             <button id="submit" class="btn-submit footer-font" type="submit">Submit</button>
