@@ -59,13 +59,18 @@ header {
   height: 6rem;
   top: 17vh;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  /* flex-direction: row; */
+  justify-content: space-around;
+  align-items: center;
+}
+.banner-row {
+  display: flex;
   align-items: center;
 }
 
 .banner-img {
   height: 4rem;
+  margin-right: 2em;
 }
 
 .banner-text {
