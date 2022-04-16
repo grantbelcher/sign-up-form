@@ -28,28 +28,24 @@
       </div>
       <div class="form-container">
         <form action="http://httpbin.org/post" method="post" onsubmit="return validatePassword()">
-          <div class="input-container main-padding shadow">
+          <div class="input-container left-padding shadow">
             <h3>Lets do it!</h3>
-            <div>
+            <div class="form-item">
               <label for="first_name">First Name</label><input name="first_name" type="text" required>
             </div>
-            <div>
+            <div class="form-item">
               <label for="last_name">Last Name</label><input name="last_name" type="text" required>
-              
             </div>
-            <div>
+            <div class="form-item">
               <label for="email">Email</label><input name="email" type="email" placeholder="example@hotmail.com" required>
-
             </div>
-            <div>
+            <div class="form-item">
               <label for="phone_number">Phone Number</label><input name="phone_number" type="text" placeholder="(555)-555-5555" pattern="(\d{3}([\-]\d{3})([\-]\d{4}))"title="(555)-555-5555" required>         
-
             </div>
-            <div>
+            <div class="form-item">
               <label for="password">Password</label><input id="password" name="password" type="password" minlength="5" required>
-
             </div>
-            <div>
+            <div class="form-item">
               <label for="confirm_password">Confirm Password</label><input id="confirm_password" name="confirm_password" type="password" required>
             </div>
             
